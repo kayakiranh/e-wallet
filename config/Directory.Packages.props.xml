@@ -1,0 +1,22 @@
+<!-- Directory.Packages.props -->
+<Project>
+  <ItemGroup>
+    <!-- Ortak paket–sürüm eşleştirmeleri -->
+    <PackageVersion Include="Serilog" Version="2.12.0" />
+    <PackageVersion Include="RabbitMQ.Client" Version="7.1.2" />
+    <PackageVersion Include="MailKit" Version="3.5.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <!-- istediğin kadar ekle… -->
+  </ItemGroup>
+</Project>
+
+<!--
+
+<ItemGroup>
+  <PackageReference Include="Serilog" Version="$(SerilogVersion)" />
+  <PackageReference Include="RabbitMQ.Client" Version="$(RabbitMQClientVersion)" />
+  <PackageReference Include="MailKit" Version="$(MailKitVersion)" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EFCoreVersion)" />
+</ItemGroup>
+
+-->
